@@ -19,7 +19,7 @@ body.rtl {
 header {
     background-color: springgreen;
     color: gold;
-    background-image: url("/img/header-bg.png");
+    background-image: url("../img/header-bg.png");
     height: 15vh;
     border: rgb(37, 2, 2) solid 1px;
     border-radius: 2px;
