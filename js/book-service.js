@@ -104,17 +104,16 @@ function _createBooks() {
     if (books) return books;
 
     var books = [
-        { name: 'Catch-22', price: '50', imgUrl: 1 },
-        { name: 'The Old Man and the Sea', price: '60', imgUrl: 2 },
-        { name: '1984', price: '39', imgUrl: 3 },
-        { name: 'If This Is a Man', price: '44', imgUrl: 4 },
-        { name: 'The Catcher in the Rye', price: '68', imgUrl: 5 },
-        { name: 'Kafka on the Shore', price: '81', imgUrl: 6 },
-        { name: 'Lord of the Flies', price: '43', imgUrl: 7 }
+        { name: 'Catch-22', price: '50', imgUrl: '1' },
+        { name: 'The Old Man and the Sea', price: '60', imgUrl: '2' },
+        { name: '1984', price: '39', imgUrl: '3' },
+        { name: 'If This Is a Man', price: '44', imgUrl: '4' },
+        { name: 'The Catcher in the Rye', price: '68', imgUrl: '5' },
+        { name: 'Kafka on the Shore', price: '81', imgUrl: '6' },
+        { name: 'Lord of the Flies', price: '43', imgUrl: '7' }
 
     ]
         .map(_createBook)
-
     return books
 }
 
@@ -128,9 +127,3 @@ function _createBook(book) {
     }
     return book
 }
-
-//Page select: need to fix page '1' bug
-
-// function booksInPageChanged(booksInPage) {
-//     BOOKS_IN_PAGE = booksInPage
-// }
